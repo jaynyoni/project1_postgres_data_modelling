@@ -8,9 +8,9 @@ Topics in this Readme:
 
 [How to Run The Script](#Running)
 
-[Database Schema Design](#Database Schema Design)
+[Database Schema Design](#DatabaseSchemaDesign)
 
-[File Descriptions](#File Descriptions)
+[File Descriptions](#FileDescriptions)
 
 
 
@@ -56,7 +56,7 @@ analytics from.
 3. Once the above has successfully completed processing the files you can then use the `test.ipynb` jupyter notebook to
    query the data.
 
-## Database Schema Design
+## DatabaseSchemaDesign
 
 ### Purpose 
 
@@ -130,7 +130,7 @@ with several other dimensional tables feeding into it. Updates in the dimensions
          PRIMARY KEY (start_time));
 ``` 
 
-## File Descriptions
+## FileDescriptions
 This project requires python version 3.9x to work. The explanation of the files in the project
 
 **`create_tables.py`**
